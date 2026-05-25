@@ -1,0 +1,494 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #e6e7e8;
+    color: #4d7779;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+a {
+    color: #2f7379;
+    text-decoration: underline;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    border: 0;
+}
+
+.wrap {
+    width: 940px;
+    margin: 0 auto;
+}
+
+
+#header {
+    background-color: #780000;
+    background-image: url(../images/bg-header.gif), url(../images/bg-body.gif);
+    background-repeat: repeat-x, repeat;
+    background-position: left -10px, left top;
+}
+
+.menu {
+    height: 42px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.menu li {
+    display: inline;
+    padding: 0 17px;
+}
+
+.menu a {
+    color: #00616b;
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.menu .active a {
+    color: #8c0000;
+    font-weight: bold;
+}
+
+#logo {
+    height: 94px;
+    margin-top: 66px;
+    padding-bottom: 68px;
+    background: url(../images/logo.gif) no-repeat center top;
+}
+
+/* Hero */
+.hero {
+    padding-bottom: 49px;
+    background-image: url(../images/pattern2.gif), url(../images/bg-body.gif);
+    background-repeat: repeat-x, repeat;
+    background-position: bottom left, left top;
+}
+
+.hero-wrap {
+    text-align: center;
+}
+
+.hero-title {
+    width: 820px;
+    margin: 0 auto 39px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    font-weight: bold;
+    line-height: 34px;
+    text-shadow: 2px 2px 0 #3b0000;
+}
+
+.tutorial-list {
+    display: flex;
+    justify-content: center;
+    gap: 94px;
+}
+
+.tutorial-card {
+    width: 362px;
+    text-align: center;
+}
+
+.tutorial-title {
+    margin-bottom: 12px;
+    color: white;
+    font-size: 22px;
+    line-height: 24px;
+    text-shadow: 2px 2px 0 #3b0000;
+    text-transform: capitalize;
+}
+
+.tutorial-photo {
+    display: block;
+    width: 362px;
+    height: 292px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: 31px 30px, 0 0;
+    text-indent: -9999px;
+}
+
+.tutorial-video {
+    background-image: url(../images/knitting1.jpg), url(../images/frames.gif);
+}
+
+.tutorial-ebook {
+    background-image: url(../images/knitting2.jpg), url(../images/frames.gif);
+}
+
+.tutorial-buttons {
+    display: block;
+    height: 44px;
+    margin-top: -27px;
+}
+
+.round-icon {
+    display: inline-block;
+    width: 44px;
+    height: 44px;
+    margin: 0 4px;
+    overflow: hidden;
+    background-image: url(../images/icons.gif);
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+}
+
+.view-icon {
+    background-position: 0 -116px;
+}
+
+.download-icon {
+    background-position: 0 -171px;
+}
+
+.more-title {
+    margin-top: 66px;
+}
+
+.more-link {
+    display: block;
+    width: 340px;
+    height: 35px;
+    margin: 0 auto;
+    overflow: hidden;
+    background: url(../images/interesting-stuff.gif) no-repeat;
+    text-indent: -9999px;
+}
+
+/* Main Content */
+.content {
+    background: #e6e7e8;
+}
+
+.collapse-button {
+    display: block;
+    height: 60px;
+    margin-top: -30px;
+    text-align: center;
+}
+
+.collapse-button a {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    background: url(../images/button-collapse.gif) no-repeat;
+    text-indent: -9999px;
+}
+
+.content-wrap {
+    display: flex;
+    align-items: flex-start;
+    gap: 36px;
+    padding: 47px 0 24px;
+}
+
+.sidebar {
+    width: 208px;
+}
+
+.sidebar-wide {
+    width: 220px;
+}
+
+.posts {
+    width: 440px;
+}
+
+.red-title,
+.posts-title {
+    margin-bottom: 19px;
+    color: #ff2600;
+    font-size: 18px;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+.posts-title {
+    text-align: center;
+}
+
+.tweet-box p {
+    margin-bottom: 18px;
+    line-height: 18px;
+    text-align: justify;
+}
+
+.tweet-box span,
+.post span {
+    display: block;
+    margin-top: 10px;
+    font-size: 11px;
+}
+
+.mini-gallery {
+    margin-top: 23px;
+}
+
+.mini-gallery li {
+    margin-bottom: 31px;
+}
+
+.mini-photo {
+    display: block;
+    width: 206px;
+    height: 96px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+}
+
+.photo-couple {
+    background-image: url(../images/couple.jpg);
+}
+
+.photo-baby {
+    background-image: url(../images/baby.jpg);
+}
+
+.photo-shoulder {
+    background-image: url(../images/shoulder.jpg);
+}
+
+.small-button {
+    display: block;
+    width: 92px;
+    height: 22px;
+    margin: 0 auto;
+    background: #78999b;
+    border-radius: 3px;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 22px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.post {
+    padding-bottom: 8px;
+    margin-bottom: 10px;
+    background: url(../images/border-dashed2.gif) repeat-x bottom left;
+}
+
+.post-title {
+    margin-bottom: 19px;
+    color: #4d7779;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.post p {
+    line-height: 20px;
+}
+
+.featured-post {
+    overflow: hidden;
+}
+
+.featured-post img {
+    float: right;
+    width: 136px;
+    height: 130px;
+    margin-left: 23px;
+}
+
+.lesson-box {
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.lesson-title {
+    margin-bottom: 16px;
+    color: #4d7779;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+.lesson-list {
+    margin-bottom: 12px;
+}
+
+.lesson-list li {
+    padding: 0 0 10px 15px;
+    margin-bottom: 10px;
+    background-image: url(../images/bullet.gif), url(../images/border-dashed2.gif);
+    background-repeat: no-repeat, repeat-x;
+    background-position: left 8px, bottom left;
+    line-height: 18px;
+}
+
+.lesson-list a {
+    color: #4d7779;
+    text-decoration: none;
+}
+
+.view-all-button {
+    width: 56px;
+    margin-right: 3px;
+    margin-left: auto;
+}
+
+
+#footer {
+    padding: 47px 0 34px;
+    background-image: url(../images/pattern1.gif), url(../images/bg-body.gif);
+    background-repeat: repeat-x, repeat;
+    background-position: top left, left top;
+    text-align: center;
+}
+
+.footer-title,
+.footer-heading {
+    color: white;
+    text-shadow: 2px 2px 0 #3b0000;
+}
+
+.footer-title {
+    margin-bottom: 15px;
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.footer-photos {
+    display: flex;
+    justify-content: center;
+    gap: 42px;
+}
+
+.footer-photos li {
+    width: 190px;
+    height: 158px;
+}
+
+.footer-photo {
+    display: block;
+    width: 190px;
+    height: 158px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: 9px 9px, 0 -311px;
+    background-size: 173px 139px, auto;
+    text-indent: -9999px;
+}
+
+.footer-kid {
+    background-image: url(../images/child.jpg), url(../images/frames.gif);
+}
+
+.footer-couple {
+    background-image: url(../images/couple.jpg), url(../images/frames.gif);
+}
+
+.footer-shoulder {
+    background-image: url(../images/shoulder.jpg), url(../images/frames.gif);
+}
+
+.paging {
+    display: block;
+    margin: 19px 0 48px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 22px;
+    text-shadow: 2px 2px 0 #3b0000;
+}
+
+.paging-link {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+}
+
+.gallery-link {
+    padding-left: 29px;
+    background: url(../images/icons.gif) no-repeat 0 -226px;
+}
+
+.share-link {
+    margin-left: 18px;
+    padding-right: 29px;
+    padding-left: 18px;
+    border-left: 2px solid white;
+    background: url(../images/icons.gif) no-repeat right -335px;
+}
+
+.footer-heading {
+    margin-bottom: 29px;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.email-form,
+.connect {
+    display: inline-block;
+    width: 300px;
+    vertical-align: top;
+}
+
+.email-form {
+    margin-right: 45px;
+}
+
+.email-form .footer-heading,
+.connect .footer-heading {
+    margin-bottom: 24px;
+}
+
+.email-form input {
+    width: 266px;
+    height: 33px;
+    border: 0;
+    background: url(../images/frames.gif) no-repeat 0 -482px;
+    color: #777;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 33px;
+    text-align: center;
+}
+
+.connect li {
+    display: inline-block;
+    margin: 0 12px;
+}
+
+.social-icon {
+    display: block;
+    height: 50px;
+    overflow: hidden;
+    background-image: url(../images/icons.gif);
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+}
+
+.facebook-icon {
+    width: 42px;
+    background-position: 0 0;
+}
+
+.twitter-icon {
+    width: 65px;
+    background-position: 0 -58px;
+}
+
+.copyright {
+    margin-top: 52px;
+    color: #c69696;
+    font-family: "Courier New", monospace;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
