@@ -1,0 +1,559 @@
+body {
+    background: #e6e7e8;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+a {
+    color: #467172;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+#header,
+#body .section,
+#footer {
+    background: url("../images/bg-body.gif") repeat;
+    min-width: 960px;
+}
+
+#header {
+    background: url("../images/bg-header.gif") repeat-x top left,
+                url("../images/bg-body.gif") repeat;
+    padding-bottom: 55px;
+}
+
+#header ul {
+    height: 70px;
+    margin: 0 auto;
+    text-align: center;
+    width: 960px;
+}
+
+#header li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+#header a {
+    color: #106c6c;
+    display: block;
+    font-size: 15px;
+    line-height: 50px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+#header a:hover,
+#header .selected a {
+    color: #830208;
+}
+
+#header .selected a {
+    font-weight: bold;
+}
+
+#logo {
+    background: url("../images/logo.gif") no-repeat center;
+    height: 94px;
+    margin: 50px auto 0;
+    width: 502px;
+}
+
+#body {
+    background: #e6e7e8 url("../images/pattern2.gif") repeat-x top left;
+    min-width: 960px;
+}
+
+#body h2,
+#body h3,
+#body p {
+    color: #467172;
+    margin: 0;
+    text-shadow: 1px 1px 0 #fff;
+}
+
+#body p {
+    font-size: 14px;
+    line-height: 20px;
+    text-align: justify;
+}
+
+#body a:hover {
+    color: #548e8e;
+}
+
+#body .section div {
+    margin: 0 auto;
+    width: 960px;
+}
+
+#body .section h1 {
+    color: #fff;
+    font-family: "Arial Black", Arial, sans-serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 32px;
+    margin: 0 auto;
+    padding: 0 0 50px;
+    text-align: center;
+    text-shadow: 0 -2px 0 #430c0f;
+    width: 780px;
+}
+
+#body .section ul {
+    overflow: hidden;
+    padding-bottom: 15px;
+}
+
+#body .section li {
+    float: left;
+    padding-left: 92px;
+    position: relative;
+    text-align: center;
+}
+
+#body .section h3,
+#body .article h2,
+#footer h2,
+#footer h3,
+#footer .paging a {
+    font-family: "Arial Black", Arial, sans-serif;
+}
+
+#body .section h3 {
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding-bottom: 10px;
+    text-shadow: 0 -2px 0 #430c0f;
+    text-transform: capitalize;
+}
+
+#body .section li a {
+    background: url("../images/knitting1.jpg") no-repeat 33px 28px,
+                url("../images/frames.gif") no-repeat 0 0;
+    display: block;
+    height: 238px;
+    padding: 28px 33px;
+    width: 298px;
+}
+
+#body .section li + li a {
+    background: url("../images/knitting2.jpg") no-repeat 33px 28px,
+                url("../images/frames.gif") no-repeat 0 0;
+}
+
+#body .section span {
+    bottom: -12px;
+    display: block;
+    height: 44px;
+    left: 210px;
+    position: absolute;
+}
+
+#body .section span a {
+    background: none;
+    display: block;
+    float: left;
+    height: 44px;
+    padding: 0;
+    margin-left: 12px;
+    text-indent: -9999px;
+    width: 44px;
+}
+
+#body .section .view {
+    background: url("../images/icons.gif") no-repeat left -116px;
+}
+
+#body .section .download {
+    background: url("../images/icons.gif") no-repeat left -171px;
+}
+
+#body .section h2 {
+    background: url("../images/interesting-stuff.gif") no-repeat center;
+    background-position: center 60px;
+    height: 35px;
+    margin: 0;
+    padding: 60px 0 30px;
+}
+
+#body .content {
+    padding: 70px 0 30px;
+}
+
+#body .content .button {
+    display: block;
+    height: 0;
+    margin: 0 auto;
+    position: relative;
+    width: 60px;
+}
+
+#body .content .button a {
+    background: url("../images/button-collapse.gif") no-repeat;
+    display: block;
+    height: 60px;
+    left: 0;
+    position: absolute;
+    text-indent: -9999px;
+    top: -86px;
+    width: 60px;
+}
+
+#body .content .button + div {
+    margin: 0 auto;
+    overflow: hidden;
+    padding-top: 30px;
+    width: 960px;
+}
+
+#body .content h2 {
+    color: #ef3002;
+    font-family: "Arial Black", Arial, sans-serif;
+    font-size: 16px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+}
+
+#body .content h3 {
+    color: #5a7f7f;
+    font-size: 14px;
+    padding-bottom: 15px;
+}
+
+#body .aside,
+#body .article {
+    float: left;
+}
+
+#body .aside {
+    padding: 0 10px;
+    width: 220px;
+}
+
+#body .article {
+    padding: 0 20px;
+    width: 440px;
+}
+
+#body .article h2 {
+    font-size: 18px;
+    text-align: center;
+}
+
+#body .content li {
+    background: url("../images/border-dashed.gif") repeat-x bottom left;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+}
+
+#body .aside div {
+    padding-bottom: 20px;
+}
+
+#body .aside h3 {
+    font-size: 14px;
+    padding: 5px 0 15px;
+    text-transform: uppercase;
+}
+
+#body .aside li {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+#body .aside div a,
+#body .gallery a {
+    background: url("../images/frames.gif") no-repeat -306px -371px;
+    color: #fff;
+    display: block;
+    font-size: 12px;
+    height: 19px;
+    line-height: 19px;
+    margin-left: 160px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 1px 1px 0 #204d4d;
+    width: 56px;
+}
+
+#body .aside .gallery a {
+    background-position: -262px -311px;
+    height: 20px;
+    line-height: 20px;
+    margin: 10px 0 0 50px;
+    text-transform: capitalize;
+    width: 100px;
+}
+
+#body .aside p a {
+    background: none;
+    color: #467172;
+    display: inline;
+    font-size: 14px;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    text-decoration: underline;
+    text-shadow: none;
+    width: auto;
+}
+
+#body .aside li a {
+    background: url("../images/bullet.gif") no-repeat left 8px;
+    color: #467172;
+    display: block;
+    font-size: 14px;
+    height: auto;
+    margin: 0;
+    padding: 0 0 0 15px;
+    text-align: justify;
+    text-decoration: none;
+    text-shadow: 1px 1px 0 #fff;
+    text-transform: none;
+    width: auto;
+}
+
+#body .gallery h2 {
+    padding-bottom: 0;
+}
+
+#body .gallery li {
+    background: none;
+    margin: 0;
+    padding: 15px 0;
+}
+
+#body .aside .gallery li a {
+    background: url("../images/couple.jpg") no-repeat;
+    border: 1px solid #fff;
+    display: block;
+    height: 96px;
+    line-height: normal;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    text-shadow: none;
+    text-transform: none;
+    width: 206px;
+}
+
+#body .aside .gallery li + li a {
+    background-image: url("../images/baby.jpg");
+}
+
+#body .aside .gallery li + li + li a {
+    background-image: url("../images/shoulder.jpg");
+}
+
+#body .article h3 a {
+    color: #5a7f7f;
+}
+
+#body .article p span {
+    bottom: auto;
+    display: block;
+    font-size: 10px;
+    height: auto;
+    left: auto;
+    padding-top: 10px;
+    position: static;
+}
+
+#body .article .section {
+    background: none;
+    float: none;
+    overflow: hidden;
+    padding-left: 0;
+    position: static;
+    text-align: left;
+}
+
+#body .article h3 {
+    color: #5a7f7f;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    letter-spacing: 0;
+    text-shadow: 1px 1px 0 #fff;
+    text-transform: none;
+}
+
+#body .article .section img {
+    border: 1px solid #fff;
+    float: right;
+}
+
+#body .article .section p {
+    float: left;
+    width: 280px;
+}
+
+#footer {
+    background: url("../images/pattern1.gif") repeat-x top left,
+                url("../images/bg-body.gif") repeat;
+    min-width: 960px;
+    padding: 50px 0 30px;
+}
+
+#footer div {
+    margin: 0 auto;
+    overflow: hidden;
+    padding-bottom: 30px;
+    width: 960px;
+}
+
+#footer h2,
+#footer h3 {
+    color: #fff;
+    letter-spacing: 1px;
+    margin: 0;
+    text-align: center;
+    text-shadow: 0 -2px 0 #430c0f;
+}
+
+#footer h2 {
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+#footer h3 {
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+
+#footer ul {
+    overflow: hidden;
+    padding-left: 150px;
+}
+
+#footer li {
+    background: url("../images/frames.gif") no-repeat 2px -308px;
+    float: left;
+    margin-right: 42px;
+    padding: 12px 10px 8px;
+    width: 173px;
+}
+
+#footer li a {
+    background: url("../images/baby.jpg") no-repeat center;
+    border: 1px solid #0e585a;
+    display: block;
+    height: 139px;
+    text-indent: -9999px;
+    width: 173px;
+}
+
+#footer li + li a {
+    background-image: url("../images/couple2.jpg");
+}
+
+#footer li + li + li a {
+    background-image: url("../images/model.jpg");
+}
+
+#footer .paging {
+    background: url("../images/frames.gif") no-repeat -200px -401px;
+    display: block;
+    margin: 10px auto;
+    overflow: hidden;
+    padding: 5px 0;
+    width: 294px;
+}
+
+#footer .paging a {
+    color: #fff;
+    display: block;
+    float: left;
+    font-size: 16px;
+    height: 22px;
+    line-height: 22px;
+    text-decoration: none;
+    text-shadow: 0 -2px 0 #430c0f;
+    text-transform: capitalize;
+}
+
+#footer .paging .gallery {
+    background: url("../images/icons.gif") no-repeat left -226px;
+    padding-left: 26px;
+    width: 120px;
+}
+
+#footer .paging .share {
+    background: url("../images/icons.gif") no-repeat right -335px;
+    margin-left: 30px;
+    padding-right: 26px;
+    width: 70px;
+}
+
+#footer form {
+    float: left;
+    padding-left: 207px;
+    width: 264px;
+}
+
+#footer input {
+    background: url("../images/frames.gif") no-repeat left -482px;
+    border: 0;
+    color: #6a6a6a;
+    font-size: 14px;
+    font-style: italic;
+    padding: 9px 8px;
+    text-align: center;
+    width: 248px;
+}
+
+#footer .connect {
+    float: left;
+    padding-left: 90px;
+    width: 266px;
+}
+
+#footer .connect h3 {
+    padding-bottom: 15px;
+    text-align: left;
+}
+
+#footer .connect ul {
+    padding-left: 20px;
+}
+
+#footer .connect li {
+    background: none;
+    margin: 0;
+    padding: 0;
+    width: 64px;
+}
+
+#footer .connect a {
+    border: 0;
+    display: block;
+    height: 50px;
+    text-indent: -9999px;
+    width: 65px;
+}
+
+#footer .facebook a {
+    background: url("../images/icons.gif") no-repeat center top;
+}
+
+#footer .twitter a {
+    background: url("../images/icons.gif") no-repeat center -55px;
+}
+
+#footer p {
+    color: #d57277;
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin: 0;
+    text-align: center;
+    text-shadow: 1px 1px 0 #430609;
+}
